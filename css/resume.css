@@ -1,0 +1,49 @@
+.resume{
+    width: 100%;
+    background-color: rgba(red, green, blue, alpha);
+    display: flex;
+    width: 100%;
+}
+
+.resumeinner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.resumeheader{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    color: thistle;
+    margin-top: 10px;
+}
+
+.resumeheader a{
+    color: violet;
+    font-weight: bold;
+    padding: 10px;
+    border: violet;
+    margin-top: 1px;
+    transition: 200ms all;
+}
+
+.resumeheader a:hover{
+    background-color: white;
+    color: violet;
+}
+
+.resumehero{
+    display: flex;
+    justify-content: center;
+    min-width: 100%;
+}
+
+.resumehero img{
+    max-width: 100%;
+    min-width: auto;
+}

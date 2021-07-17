@@ -1,0 +1,34 @@
+.resumenav{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    background-color: rgba(red, green, blue, alpha);
+}
+
+.resumenav img{
+    max-width: 100px;
+    margin: 10px 0px;
+    margin-left: auto;
+}
+
+.resumenavlinks{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    color: salmon;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+    margin-top: 20px;
+}
+.resumenavlinks a{
+    width: 200px;
+    margin: 20px;
+    margin-left: 100%;
+    text-align: left;
+    text-decoration: none ;
+    color: skyblue;
+}
